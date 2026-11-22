@@ -1,0 +1,100 @@
+GoXEDIT End User License Agreement (Proprietary Freeware — Personal & Internal Enterprise Use)
+Copyright (c) 2026 GoXEDIT Project (Lung2478). All Rights Reserved.
+
+IMPORTANT — READ CAREFULLY BEFORE DOWNLOADING, INSTALLING, OR USING THIS SOFTWARE.
+
+This End User License Agreement ("Agreement") governs your use of the compiled
+GoSLIDEEDIT desktop and command-line executable ("Software") distributed by
+GoXEDIT Project (Lung2478) ("Licensor"). By downloading, installing, copying,
+or using the Software, you agree to be bound by the terms of this Agreement.
+
+1. GRANT OF FREE LICENSE (PERSONAL & INTERNAL ENTERPRISE USE)
+   Subject to your strict compliance with this Agreement, Licensor grants you
+   (an individual or a single legal entity / organization) a free, worldwide,
+   non-exclusive, non-transferable, non-sublicensable, revocable license to
+   download, install, and use the Standard Edition of the Software solely for:
+   (a) Personal, non-commercial use; and
+   (b) Internal business operations within your organization, including
+       automated single-file or batch document processing invoked by AI models,
+       AI agents, or internal scripts through officially documented interfaces
+       (such as official Headless CLI commands and arguments).
+
+   This free license covers personal and internal enterprise use of the
+   Standard Edition. If your organization requires OEM embedded integration,
+   dedicated custom development, enterprise-scale legacy document migration
+   consulting, or dedicated technical support and SLA, please contact GoXEDIT
+   Official (via the GoXEDIT official website contact form or GitHub Issues
+   tagged with commercial-inquiry) to obtain a Commercial License.
+
+2. RESTRICTIONS (ALL OTHER RIGHTS RESERVED)
+   Except as expressly permitted under Section 1 or by a separate signed
+   Commercial License from Licensor, you may NOT, and may not permit any third
+   party to:
+   (a) Sell, resell, rent, lease, lend, sublicense, white-label, or
+       commercially redistribute the Software, in whole or in part;
+   (b) Embed, bundle, or integrate the Software into any third-party
+       commercial software, hardware appliance, or paid product (OEM use);
+   (c) Expose, host, or wrap the Software (including its Headless CLI) as a
+       hosted cloud service, SaaS platform, public web converter, or paid API
+       service for external third parties;
+   (d) Decompile, disassemble, reverse engineer, unpack, inspect bundled
+       bytecode, or otherwise attempt to derive or reconstruct the source code,
+       algorithms, or internal assets of the Software;
+   (e) Modify, adapt, translate, or create derivative works based on the
+       Software binary;
+   (f) Remove, obscure, or alter any copyright, trademark, license, or
+       third-party attribution notice contained in or accompanying the Software.
+
+3. OFFICIAL AI INTERFACE DOCUMENTATION & SKILLS
+   Separate documentation, CLI schema specifications, and agent skill templates
+   explicitly published inside the official `ai-interface/` directory are
+   licensed separately under the MIT License (see `ai-interface/LICENSE-MIT.txt`)
+   solely to enable frictionless integration into your AI workflows. Such MIT
+   license applies strictly to those documentation/skill files and NEVER extends
+   to the Software binary or underlying proprietary source code.
+
+4. INTELLECTUAL PROPERTY & TRADEMARKS
+   The Software is licensed, not sold. Licensor retains all right, title, and
+   interest in and to the Software, its underlying source code, architecture,
+   and all associated trademarks ("GoXEDIT", "GoSLIDEEDIT", "GoMDEDIT", and
+   related marks). No trademark rights are granted under this Agreement.
+
+5. THIRD-PARTY OPEN-SOURCE COMPONENTS
+   The Software incorporates third-party open-source libraries distributed under
+   permissive licenses (including MIT, BSD, ISC, HPND/MIT-CMU, and the
+   PyInstaller Bootloader Special Exception). Required copyright notices and
+   license texts are provided in `THIRD_PARTY_NOTICES.txt`.
+
+6. DISCLAIMER OF WARRANTY
+   THE SOFTWARE AND ALL ACCOMPANYING DOCUMENTATION ARE PROVIDED ON AN "AS IS"
+   AND "AS AVAILABLE" BASIS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, TITLE, ACCURACY, NON-INFRINGEMENT, OR
+   UNINTERRUPTED / ERROR-FREE OPERATION.
+
+   YOU ACKNOWLEDGE THAT CROSS-PLATFORM DOCUMENT CONVERSION (INCLUDING MICROSOFT
+   POWERPOINT AND GOOGLE SLIDES NORMALIZATION) AND AUTOMATED BATCH PROCESSING
+   MAY AFFECT VISUAL LAYOUT, LEGACY MACROS, OR UNSUPPORTED PROPRIETARY ELEMENTS.
+   YOU ARE SOLELY RESPONSIBLE FOR MAINTAINING BACKUPS OF ALL ORIGINAL FILES
+   BEFORE USING THE SOFTWARE OR ITS HEADLESS CLI.
+
+7. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+   LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+   PUNITIVE, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOSS OF
+   DATA, CORRUPTED DOCUMENTS, BUSINESS INTERRUPTION, LOSS OF PROFITS, OR SYSTEM
+   DOWNTIME) ARISING OUT OF OR IN CONNECTION WITH THE USE OR INABILITY TO USE
+   THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+8. TERMINATION & GOVERNING LANGUAGE
+   This Agreement terminates automatically without notice if you breach any
+   restriction in Section 2, upon which you must cease all use and destroy all
+   copies of the Software. The English version of this Agreement is the
+   authoritative legal text; any translation (including `LICENSE.zh-TW.md`) is
+   provided for convenience only.
+
+9. COMMERCIAL LICENSING INQUIRIES
+   For OEM embedding, custom development, enterprise batch migration
+   consulting, white-label distribution, or SLA support:
+   - Official Website: GoXEDIT Official Website Contact Form
+   - GitHub Issues: https://github.com/Lung2478/GoSLIDEEDIT/issues (label: commercial-inquiry)

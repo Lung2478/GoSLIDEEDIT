@@ -1,0 +1,137 @@
+GoSLIDEEDIT — Third-Party Open-Source Software Notices
+Copyright (c) 2026 GoXEDIT Project (Lung2478). All Rights Reserved.
+
+GoSLIDEEDIT is proprietary freeware (see LICENSE). The compiled GoSLIDEEDIT
+executable bundles the following third-party open-source components under their
+respective licenses. We gratefully acknowledge their authors and contributors.
+
+================================================================================
+1. PYTHON RUNTIME & BACKEND LIBRARIES
+================================================================================
+
+[Python 3.12]
+License: Python Software Foundation License Version 2 (PSF-2.0)
+Copyright (c) Python Software Foundation. All rights reserved.
+Website: https://www.python.org/
+
+[python-pptx]
+License: MIT License
+Copyright (c) Steve Canny and contributors.
+Website: https://github.com/scanny/python-pptx
+
+[lxml]
+License: BSD-3-Clause License
+Copyright (c) Infrae and lxml contributors.
+(Bundled libxml2 and libxslt are licensed under the MIT License.)
+Website: https://lxml.de/
+
+[Pillow (PIL Fork)]
+License: MIT-CMU / HPND License
+Copyright (c) 1997-2011 by Secret Labs AB, 1995-2011 by Fredrik Lundh,
+and 2010-2026 by Jeffrey A. Clark and contributors.
+Website: https://python-pillow.org/
+
+[pywebview]
+License: BSD-3-Clause License
+Copyright (c) Roman Sirokov and contributors.
+Website: https://pywebview.flowrl.com/
+
+[pythonnet & clr_loader]
+License: MIT License
+Copyright (c) Python.NET contributors.
+Website: https://github.com/pythonnet/pythonnet
+
+[bottle]
+License: MIT License
+Copyright (c) Marcel Hellkamp.
+Website: https://bottlepy.org/
+
+[XlsxWriter]
+License: BSD-2-Clause License
+Copyright (c) John McNamara.
+Website: https://github.com/jmcnamara/XlsxWriter
+
+[cffi & pycparser]
+License: MIT License (cffi) / BSD-3-Clause License (pycparser)
+Copyright (c) cffi & pycparser contributors.
+
+[altgraph, pefile, pywin32-ctypes, packaging, typing_extensions, proxy_tools]
+Licenses: MIT License / BSD-3-Clause / Apache-2.0 / PSF-2.0
+Copyright (c) respective library authors and contributors.
+
+[PyInstaller]
+License: GPL-2.0-or-later WITH PyInstaller Bootloader Special Exception
+Copyright (c) PyInstaller Development Team.
+Website: https://pyinstaller.org/
+Note on Bootloader Special Exception:
+  PyInstaller's license explicitly grants a special exception allowing the
+  PyInstaller bootloader to be combined with proprietary/closed-source Python
+  applications into a single executable without imposing GPL requirements on
+  the bundled application itself, provided PyInstaller itself is unmodified.
+
+================================================================================
+2. FRONTEND LIBRARIES (BUNDLED OFFLINE STATIC ASSETS)
+================================================================================
+
+[React & React DOM]
+License: MIT License
+Copyright (c) Meta Platforms, Inc. and affiliates.
+Website: https://react.dev/
+
+[lucide-react]
+License: ISC License
+Copyright (c) Lucide Contributors.
+Website: https://lucide.dev/
+
+[Vite & TypeScript (Build Toolchain)]
+License: MIT License (Vite) / Apache-2.0 License (TypeScript)
+Copyright (c) Evan You & Vite Contributors / Microsoft Corporation.
+
+================================================================================
+STANDARD PERMISSIVE LICENSE TEXTS (SUMMARY)
+================================================================================
+
+--- MIT License ---
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--- BSD-3-Clause License ---
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED.
+
+--- ISC License ---
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS.

@@ -1,0 +1,27 @@
+MIT License (Applicable ONLY to Official AI Interface Documentation & Agent Skills)
+
+Copyright (c) 2026 GoXEDIT Project (Lung2478)
+
+SCOPE NOTICE:
+This MIT License applies EXCLUSIVELY to the documentation, CLI specifications,
+and AI agent skill files located inside the `ai-interface/` directory.
+It does NOT apply to the compiled GoSLIDEEDIT executable (`GoSLIDEEDIT.exe`),
+nor to any underlying proprietary source code or software assets, which remain
+strictly governed by the GoXEDIT Proprietary Freeware EULA (see root `LICENSE`).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of these documentation and skill files (the "Interface Materials"), to deal
+in the Interface Materials without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Interface Materials, and to permit persons to whom the
+Interface Materials are furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Interface Materials.
+
+THE INTERFACE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE INTERFACE MATERIALS.
