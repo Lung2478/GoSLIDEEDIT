@@ -3,8 +3,8 @@ name: goslideedit-cli-operator
 description: >-
   Official AI Agent Skill for operating GoSLIDEEDIT.exe in Headless CLI mode.
   Use when inspecting, extracting outlines from, or batch-normalizing legacy
-  .pptx presentations into Microsoft PowerPoint and Google Slides 100%
-  intersection-compatible decks completely offline.
+  .pptx presentations into Microsoft PowerPoint and Google Slides
+  intersection-compatible decks offline.
 ---
 
 # GoSLIDEEDIT Official Headless CLI Operator (`goslideedit-cli-operator`)

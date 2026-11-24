@@ -65,7 +65,7 @@ Copyright (c) PyInstaller Development Team.
 Website: https://pyinstaller.org/
 Note on Bootloader Special Exception:
   PyInstaller's license explicitly grants a special exception allowing the
-  PyInstaller bootloader to be combined with proprietary/closed-source Python
+  PyInstaller bootloader to be combined with proprietary Python
   applications into a single executable without imposing GPL requirements on
   the bundled application itself, provided PyInstaller itself is unmodified.
 

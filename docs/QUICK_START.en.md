@@ -1,6 +1,6 @@
 # GoSLIDEEDIT Quick Start Manual (English)
 
-**GoSLIDEEDIT** is a portable, single-executable, 100% offline presentation editor for Windows. It is purpose-built to eliminate the font reflow, broken charts, and missing animation issues that occur when exchanging `.pptx` files between **Microsoft PowerPoint** and **Google Slides**.
+**GoSLIDEEDIT** is a portable, single-executable, offline presentation editor for Windows. It is purpose-built to eliminate the font reflow, broken charts, and missing animation issues that occur when exchanging `.pptx` files between **Microsoft PowerPoint** and **Google Slides**.
 
 > **Built-In Interactive Practice Deck**: When you launch `GoSLIDEEDIT.exe`, it opens **`QuickStart_GoSLIDEEDIT.pptx` (an 11-slide interactive guide)** by default. Try clicking charts, dragging flowchart nodes, and testing controls directly on the canvas as you read this manual.
 
@@ -26,7 +26,7 @@ Presentations created in desktop PowerPoint often shift lines, distort chart lab
 | **Fonts reflow or overflow on another PC or cloud** | Enforces a **15 Safe Fonts Whitelist** + **Separate CJK & Latin Font Setup** with dual-track font binding | Mixed English/CJK text keeps exact line breaks across PowerPoint and Google Slides |
 | **Charts break or become uneditable across platforms** | Compiles business charts (Bar, Line, Pie, Donut) into **standard grouped vector shapes** | Zero-pixel drift on both platforms while remaining directly editable |
 | **External SmartArt or Excel charts break on import** | Captures an in-place **2x clean PNG visual snapshot** and offers a **Remake Assistant** | Nothing disappears; extract raw text/data into editable elements in one click |
-| **Requires cloud login or heavy installation** | **Single portable `GoSLIDEEDIT.exe`**, 100% offline with zero network calls | Copy to any Windows PC and double-click `.pptx` files into one multi-tab window |
+| **Requires cloud login or heavy installation** | **Single portable `GoSLIDEEDIT.exe`**, offline execution with zero network calls | Copy to any Windows PC and double-click `.pptx` files into one multi-tab window |
 
 ---
 
@@ -105,7 +105,7 @@ Need mixed-language slides where CJK characters use `Microsoft JhengHei` (or `DF
 
 ### Feature 2: Zero-Drift Business Charts, Freeform Polygons & 8-Anchor Magnetic Connectors
 * **Grouped Vector Business Charts**: Create **Bar, Line, Pie, and Donut** charts. Charts compile down to standard grouped vector shapes and text boxes with embedded structured JSON, delivering **0-pixel drift** in PowerPoint and Google Slides while remaining fully editable in GoSLIDEEDIT's right Inspector.
-* **Cross-Platform Freeform Polygon**: Launch from the top **Shape** menu, **Line / Arrow** menu, or right-clicking blank canvas. Supports both **click-by-click straight segments** and **hold-and-drag freehand strokes** (automatically smoothed into crisp vertices); click the start circle, double-click, or press `Enter` to auto-close into a filled polygon (`Backspace` undoes the last vertex, `Esc` cancels). Afterward, switch between **Closed Polygon / Open Polyline** or toggle **Edit Points** in the Inspector or right-click menu to drag vertices, click edge midpoints to insert vertices, or `Alt + Click` to delete vertices—100% natively editable in both PowerPoint (Freeform) and Google Slides (Polyline).
+* **Cross-Platform Freeform Polygon**: Launch from the top **Shape** menu, **Line / Arrow** menu, or right-clicking blank canvas. Supports both **click-by-click straight segments** and **hold-and-drag freehand strokes** (automatically smoothed into crisp vertices); click the start circle, double-click, or press `Enter` to auto-close into a filled polygon (`Backspace` undoes the last vertex, `Esc` cancels). Afterward, switch between **Closed Polygon / Open Polyline** or toggle **Edit Points** in the Inspector or right-click menu to drag vertices, click edge midpoints to insert vertices, or `Alt + Click` to delete vertices—natively editable in both PowerPoint (Freeform) and Google Slides (Polyline).
 * **6 Straight & Curved Magnetic Connectors**: Insert straight or cubic-Bezier curved lines/arrows. Drag either endpoint handle within `18px` of any shape to snap onto its **8 anchor points** (`N, S, E, W, NW, NE, SW, SE`). Moving or resizing connected shapes automatically updates all attached connectors.
 
 ### Feature 3: Slide Master, External `.pptx` Master Import & 6 Theme Presets
@@ -138,7 +138,7 @@ Press `Ctrl+P` (or **File -> Print Presentation**) to open the two-column **Prin
 Whenever you open an external `.pptx` file, GoSLIDEEDIT runs automatic cross-platform protection:
 
 1. **Status Bar Compatibility Badge**:
-   * `[PASS] PowerPoint & Google Slides 100% Compatible` confirms full two-platform safety.
+   * The `[PASS]` compatibility status confirms two-platform intersection compliance.
    * If notices appear (mapped non-whitelist fonts, downgraded single-vendor transitions/animations, local non-whitelist fonts, or out-of-bounds elements), click the badge to inspect details, jump to the slide, or click **1-Click Auto-Fix**.
 2. **Overwrite Protection**: When opening an external `.pptx` triggers automatic compatibility normalization, the tab is marked dirty and **Auto Save is paused** until you review and press `Ctrl+S`.
 3. **Incompatible Snapshot & Remake Assistant**: External SmartArt, native Excel charts, or complex groups are captured in-place as clean **2x `.png` visual snapshots** with a dashed badge. Select the snapshot to open the **Remake Assistant** in the right Inspector—copy extracted text/data or spawn an editable Text Box, Table, or Business Chart beside it in one click.

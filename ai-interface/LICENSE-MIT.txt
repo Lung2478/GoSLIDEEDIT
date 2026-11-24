@@ -6,7 +6,7 @@ SCOPE NOTICE:
 This MIT License applies EXCLUSIVELY to the documentation, CLI specifications,
 and AI agent skill files located inside the `ai-interface/` directory.
 It does NOT apply to the compiled GoSLIDEEDIT executable (`GoSLIDEEDIT.exe`),
-nor to any underlying proprietary source code or software assets, which remain
+nor to any underlying software code or software assets, which remain
 strictly governed by the GoXEDIT Proprietary Freeware EULA (see root `LICENSE`).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

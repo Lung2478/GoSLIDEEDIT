@@ -1,13 +1,13 @@
 # GoSLIDEEDIT Official Headless CLI Specification (`v1.9.0`)
 
 > **License**: This interface specification (`ai-interface/`) is licensed under the MIT License (`LICENSE-MIT.txt`). The `GoSLIDEEDIT.exe` software binary itself is governed by the GoXEDIT Proprietary Freeware EULA (`../LICENSE`).  
-> **100% Offline**: All CLI operations execute locally with zero network requests and zero GUI windows.
+> **Offline Execution**: All CLI operations execute locally with zero network requests and zero GUI windows.
 
 ---
 
 ## 1. Overview / 介面總覽
 
-`GoSLIDEEDIT.exe` provides a dedicated **Headless CLI** mode designed for AI agents, enterprise IT scripts, and automated CI/migration pipelines to inspect, outline-extract, and batch-normalize legacy `.pptx` presentations into **Microsoft PowerPoint ∩ Google Slides 100% intersection-compatible `.pptx`** files.
+`GoSLIDEEDIT.exe` provides a dedicated **Headless CLI** mode designed for AI agents, enterprise IT scripts, and automated CI/migration pipelines to inspect, outline-extract, and batch-normalize legacy `.pptx` presentations into **Microsoft PowerPoint ∩ Google Slides intersection-compatible `.pptx`** files.
 
 ### Invocation / 呼叫方式
 
@@ -119,7 +119,7 @@ GoSLIDEEDIT.exe --cli normalize <input_path> --output <dir_or_file> [options]
 
 ### B. `inspect` — Read-Only Compatibility Audit（唯讀相容性診斷）
 
-Performs a 100% read-only compatibility and structural scan without modifying or creating any `.pptx` files. Ideal as Step 1 before deciding whether a batch migration needs `--apply-master` or manual attention for incompatible elements.
+Performs a read-only compatibility and structural scan without modifying or creating any `.pptx` files. Ideal as Step 1 before deciding whether a batch migration needs `--apply-master` or manual attention for incompatible elements.
 
 ```powershell
 GoSLIDEEDIT.exe --cli inspect <input_path> [--recursive] [--json] [--report <audit.json>]
@@ -171,5 +171,5 @@ When using `--ea-font` or `--latin-font`, prefer these 15 PowerPoint ∩ Google 
 
 1. **Always `inspect` before `normalize`**：Run `inspect --report` first on unfamiliar corporate folders to report scope and incompatible SmartArt/Excel elements to the user.
 2. **Always use a separate `--output` directory**：Never pass `--overwrite` targeting the user's original directory unless explicitly instructed by the user.
-3. **Always pass `--report <path.json>`**：When running on Windows, reading the written JSON report file guarantees 100% lossless UTF-8 data capture regardless of terminal code page settings.
+3. **Always pass `--report <path.json>`**：When running on Windows, reading the written JSON report file guarantees reliable UTF-8 data capture regardless of terminal code page settings.
 4. **Always remind users to review `incompatibleSnapshotCount > 0` files**：Any legacy SmartArt or native Excel chart is safely preserved as a 2x `.png` snapshot and can be rebuilt into native editable charts/text in GoSLIDEEDIT's Remake Assistant.

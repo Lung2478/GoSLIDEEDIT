@@ -1,4 +1,4 @@
-# GoSLIDEEDIT — PowerPoint & Google Slides 100% Intersection-Compatible Presentation Editor
+# GoSLIDEEDIT — PowerPoint & Google Slides Intersection-Compatible Presentation Editor
 
 > **Copyright (c) 2026 GoXEDIT Project (Lung2478). All Rights Reserved.**  
 > **Single-File Offline Desktop Presentation Editor + Official AI Headless CLI (`GoSLIDEEDIT.exe`)**
@@ -7,12 +7,12 @@
 
 ## Product Overview / 產品總覽
 
-**GoSLIDEEDIT** is a 100% offline, portable single-file desktop presentation editor (`GoSLIDEEDIT.exe`) engineered around the **strict Microsoft PowerPoint ∩ Google Slides compatibility intersection**. Presentations created or normalized with GoSLIDEEDIT open cleanly across both Microsoft PowerPoint (Windows desktop) and Google Slides (browser) with zero font drift, zero chart misalignment, and zero broken single-vendor effects.
+**GoSLIDEEDIT** is an offline, portable single-file desktop presentation editor (`GoSLIDEEDIT.exe`) engineered around the **strict Microsoft PowerPoint ∩ Google Slides compatibility intersection**. Presentations created or normalized with GoSLIDEEDIT open cleanly across both Microsoft PowerPoint (Windows desktop) and Google Slides (browser) with zero font drift, zero chart misalignment, and zero broken single-vendor effects.
 
-**GoSLIDEEDIT** 是一款 100% 離線運作、免安裝的單一執行檔（`GoSLIDEEDIT.exe`）商業簡報編輯器，嚴格遵循 **Microsoft PowerPoint ∩ Google Slides 最大交集相容規範**，徹底解決企業在桌面版 PowerPoint 與雲端 Google Slides 之間交換 `.pptx` 檔案時的字型跑版、圖表錯位與單邊特效失效痛點。
+**GoSLIDEEDIT** 是一款本機離線運作、免安裝的單一執行檔（`GoSLIDEEDIT.exe`）商業簡報編輯器，嚴格遵循 **Microsoft PowerPoint ∩ Google Slides 最大交集相容規範**，徹底解決企業在桌面版 PowerPoint 與雲端 Google Slides 之間交換 `.pptx` 檔案時的字型跑版、圖表錯位與單邊特效失效痛點。
 
 ### Core Highlights / 核心特色
-* **100% Offline & Portable (`GoSLIDEEDIT.exe`)**：Zero installation, zero cloud uploads, zero telemetry, zero external CDN requests — confidential corporate decks never leave your PC.
+* **Offline & Portable (`GoSLIDEEDIT.exe`)**：Zero installation, zero cloud uploads, zero telemetry, zero external CDN requests — confidential corporate decks never leave your PC.
 * **Strict PowerPoint ∩ Google Slides Intersection**：
   * **15 Cross-Platform Safe Fonts + Dual CJK/Latin Font Splitting (`<a:ea>` + `<a:latin>` + `<a:cs>`)**：Independently configure Chinese and English/numeric fonts with 4 built-in business presets.
   * **Grouped-Shape Vector Charts (`<p:grpSp>`) & Freeform Polygons (`<a:custGeom>`)**：Bar, line, pie, and donut charts compile into native OpenXML vector shapes with 0-pixel cross-platform drift.
@@ -42,7 +42,7 @@
 
 ## Official AI Automation Interface (Headless CLI & Agent Skill)
 
-External AI models and enterprise automation scripts can operate `GoSLIDEEDIT.exe` directly via the official **Headless CLI** (no GUI window, strictly non-destructive by default, 100% offline):
+External AI models and enterprise automation scripts can operate `GoSLIDEEDIT.exe` directly via the official **Headless CLI** (no GUI window, non-destructive by default, fully local and offline):
 
 ```powershell
 # Example: Batch-normalize legacy corporate .pptx decks with unified Slide Master & dual fonts
@@ -59,7 +59,7 @@ External AI models and enterprise automation scripts can operate `GoSLIDEEDIT.ex
 
 ## License & Commercial Use / 授權與商業合作
 
-* **Software Binary (`GoSLIDEEDIT.exe`)**：Licensed under the **GoXEDIT Proprietary Freeware EULA** — **100% free for personal and internal enterprise use**, including automated single-file or batch invocation by internal AI agents via official CLI interfaces. Commercial redistribution, white-labeling, OEM embedding, hosted SaaS/API wrapping, and reverse engineering are strictly prohibited without a Commercial License.
+* **Software Binary (`GoSLIDEEDIT.exe`)**：Licensed under the **GoXEDIT Proprietary Freeware EULA** — **free for personal and internal enterprise use**, including automated single-file or batch invocation by internal AI agents via official CLI interfaces. Commercial redistribution, white-labeling, OEM embedding, hosted SaaS/API wrapping, and reverse engineering are strictly prohibited without a Commercial License.
   * English Authoritative License: [`LICENSE`](./LICENSE)
   * 繁體中文參考譯本: [`LICENSE.zh-TW.md`](./LICENSE.zh-TW.md)
   * Third-Party Open-Source Notices: [`THIRD_PARTY_NOTICES.txt`](./THIRD_PARTY_NOTICES.txt)
