@@ -1,4 +1,4 @@
-# GoSLIDEEDIT Official Headless CLI Specification (`v1.9.0`)
+# GoSLIDEEDIT Official Headless CLI Specification (`v1.9.1`)
 
 > **License**: This interface specification (`ai-interface/`) is licensed under the MIT License (`LICENSE-MIT.txt`). The `GoSLIDEEDIT.exe` software binary itself is governed by the GoXEDIT Proprietary Freeware EULA (`../LICENSE`).  
 > **Offline Execution**: All CLI operations execute locally with zero network requests and zero GUI windows.
@@ -78,7 +78,7 @@ GoSLIDEEDIT.exe --cli normalize <input_path> --output <dir_or_file> [options]
 {
   "ok": true,
   "command": "normalize",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "inputPath": "C:\\work\\legacy_decks",
   "outputPath": "C:\\work\\migrated_decks",
   "totalFiles": 12,
