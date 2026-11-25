@@ -19,7 +19,7 @@
 
 ## 1. Why GoSLIDEEDIT (Core Selling Points)
 
-Presentations created in desktop PowerPoint often shift lines, distort chart labels, or lose single-vendor transitions when uploaded to Google Slides (and vice versa). **GoSLIDEEDIT** solves these problems by enforcing the strict intersection of both platforms:
+Presentations created in desktop PowerPoint often shift lines, distort chart labels, or lose single-vendor transitions when uploaded to Google Slides (and vice versa). **GoSLIDEEDIT** solves these problems by focusing on the compatibility intersection of both platforms:
 
 | Common Pain Point | GoSLIDEEDIT Solution | Real-World Benefit |
 | :--- | :--- | :--- |
@@ -104,7 +104,7 @@ Need mixed-language slides where CJK characters use `Microsoft JhengHei` (or `DF
 * **Local System Fonts Flexibility**: You can also preview and export PDF/images using any font installed on your Windows PC; when saving to `.pptx`, non-whitelisted fonts are automatically mapped to the nearest safe font so cross-platform formatting never breaks.
 
 ### Feature 2: Zero-Drift Business Charts, Freeform Polygons & 8-Anchor Magnetic Connectors
-* **Grouped Vector Business Charts**: Create **Bar, Line, Pie, and Donut** charts. Charts compile down to standard grouped vector shapes and text boxes with embedded structured JSON, delivering **0-pixel drift** in PowerPoint and Google Slides while remaining fully editable in GoSLIDEEDIT's right Inspector.
+* **Grouped Vector Business Charts**: Create **Bar, Line, Pie, and Donut** charts. Charts compile down to standard grouped vector shapes and text boxes with embedded structured JSON, delivering **consistent layout** in PowerPoint and Google Slides while remaining fully editable in GoSLIDEEDIT's right Inspector.
 * **Cross-Platform Freeform Polygon**: Launch from the top **Shape** menu, **Line / Arrow** menu, or right-clicking blank canvas. Supports both **click-by-click straight segments** and **hold-and-drag freehand strokes** (automatically smoothed into crisp vertices); click the start circle, double-click, or press `Enter` to auto-close into a filled polygon (`Backspace` undoes the last vertex, `Esc` cancels). Afterward, switch between **Closed Polygon / Open Polyline** or toggle **Edit Points** in the Inspector or right-click menu to drag vertices, click edge midpoints to insert vertices, or `Alt + Click` to delete vertices—natively editable in both PowerPoint (Freeform) and Google Slides (Polyline).
 * **6 Straight & Curved Magnetic Connectors**: Insert straight or cubic-Bezier curved lines/arrows. Drag either endpoint handle within `18px` of any shape to snap onto its **8 anchor points** (`N, S, E, W, NW, NE, SW, SE`). Moving or resizing connected shapes automatically updates all attached connectors.
 

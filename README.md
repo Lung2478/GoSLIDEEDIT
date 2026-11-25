@@ -7,15 +7,15 @@
 
 ## Product Overview / 產品總覽
 
-**GoSLIDEEDIT** is an offline, portable single-file desktop presentation editor (`GoSLIDEEDIT.exe`) engineered around the **strict Microsoft PowerPoint ∩ Google Slides compatibility intersection**. Presentations created or normalized with GoSLIDEEDIT open cleanly across both Microsoft PowerPoint (Windows desktop) and Google Slides (browser) with zero font drift, zero chart misalignment, and zero broken single-vendor effects.
+**GoSLIDEEDIT** is an offline, portable single-file desktop presentation editor (`GoSLIDEEDIT.exe`) engineered around the **Microsoft PowerPoint ∩ Google Slides compatibility intersection**. Presentations created or normalized with GoSLIDEEDIT open cleanly across both Microsoft PowerPoint (Windows desktop) and Google Slides (browser), minimizing font reflow, chart misalignment, and unsupported single-vendor effects.
 
-**GoSLIDEEDIT** 是一款本機離線運作、免安裝的單一執行檔（`GoSLIDEEDIT.exe`）商業簡報編輯器，嚴格遵循 **Microsoft PowerPoint ∩ Google Slides 最大交集相容規範**，徹底解決企業在桌面版 PowerPoint 與雲端 Google Slides 之間交換 `.pptx` 檔案時的字型跑版、圖表錯位與單邊特效失效痛點。
+**GoSLIDEEDIT** 是一款本機離線運作、免安裝的單一執行檔（`GoSLIDEEDIT.exe`）商業簡報編輯器，遵循 **Microsoft PowerPoint ∩ Google Slides 最大交集相容規範**，協助企業解決在桌面版 PowerPoint 與雲端 Google Slides 之間交換 `.pptx` 檔案時的字型跑版、圖表錯位與單邊特效失效痛點。
 
 ### Core Highlights / 核心特色
 * **Offline & Portable (`GoSLIDEEDIT.exe`)**：Zero installation, zero cloud uploads, zero telemetry, zero external CDN requests — confidential corporate decks never leave your PC.
-* **Strict PowerPoint ∩ Google Slides Intersection**：
+* **PowerPoint ∩ Google Slides Intersection**：
   * **15 Cross-Platform Safe Fonts + Dual CJK/Latin Font Splitting (`<a:ea>` + `<a:latin>` + `<a:cs>`)**：Independently configure Chinese and English/numeric fonts with 4 built-in business presets.
-  * **Grouped-Shape Vector Charts (`<p:grpSp>`) & Freeform Polygons (`<a:custGeom>`)**：Bar, line, pie, and donut charts compile into native OpenXML vector shapes with 0-pixel cross-platform drift.
+  * **Grouped-Shape Vector Charts (`<p:grpSp>`) & Freeform Polygons (`<a:custGeom>`)**：Bar, line, pie, and donut charts compile into native OpenXML vector shapes for consistent cross-platform layout.
   * **4 Intersection Transitions + 8 Core Animations** & **2x Offline Visual Snapshots** for incompatible external elements (SmartArt, Excel charts, OLE objects).
 * **Official AI Automation Interface (Headless CLI)**：Run `GoSLIDEEDIT.exe --cli` to inspect, outline-extract, or non-destructively batch-normalize hundreds of legacy corporate `.pptx` decks (including batch `--apply-master`, `--ea-font`, `--latin-font`, and structured JSON audit reports).
 

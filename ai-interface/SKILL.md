@@ -15,7 +15,7 @@ description: >-
 
 Use this skill whenever the user asks you to audit, extract content from, or
 batch-convert `.pptx` presentations using **GoSLIDEEDIT** so they render cleanly
-with zero layout/font drift in both Microsoft PowerPoint and Google Slides.
+with consistent layout and typography in both Microsoft PowerPoint and Google Slides.
 
 ## 1. Pre-Flight Checklist
 
@@ -72,7 +72,7 @@ Use `--format txt` for compact human-readable outlines, or `--no-notes` to omit 
 ## 4. Non-Negotiable Safety Guardrails
 
 - **Never pass `--overwrite`** targeting the original source directory without explicit user confirmation.
-- **Always pass `--report <path.json>`** on Windows so UTF-8 results are captured losslessly regardless of terminal encoding.
+- **Always pass `--report <path.json>`** on Windows so UTF-8 results are captured reliably regardless of terminal encoding.
 - **Synchronous Execution in PowerShell**: Because `GoSLIDEEDIT.exe` is a Windows GUI-subsystem binary, append `| Out-String` (or use `Start-Process -Wait -PassThru` / `subprocess.run`) when invoking from PowerShell so the shell waits for completion and populates `$LASTEXITCODE`.
 - **Keep original files untouched** and remind the user to visually inspect converted decks before formal external delivery.
 - For complete CLI schemas and flags, consult `CLI_SPEC.md`.
